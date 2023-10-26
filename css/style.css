@@ -647,7 +647,7 @@ a:focus {
 
 .about .about-text a.btn:hover {
     color: #fff;
-    background: #2e5efc;
+    background: #041845;
 }
 
 @media (max-width: 767.98px) {
@@ -1064,45 +1064,38 @@ a:focus {
     border-top: none;
 }
 
-.team {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
+.company { 
+    padding: 40px 5px;
 }
 
-.team h2{
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.kompany {
+    flex: 0 0 50%; 
+    max-width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    padding: 2px;
+}
+
+.section-header h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center; 
     color: #041845;
 }
 
-.team .team-item {
-    position: relative;
-    margin-bottom: 30px;
-    overflow: hidden;
-}
-
-.team .team-img {
-    position: relative;
-}
-
-.team .team-img img {
-    width: 70%;
-    height: 80px;
-    border-radius: 5%;
-}
-
-@media(max-width: 500.98px) {
-    .team {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .team .team-img img {
-        width: 60%;
-        height: 80px;
-        border-radius: 5%;
-    }
-}
 
 
 /*******************************/
