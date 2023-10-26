@@ -1,6 +1,10 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #000;
     background: #dddddd;
@@ -601,7 +605,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0;
-    background-color: #041845;
+    background-color: #2e5efc;
 }
 
 .about .section-header {
@@ -1077,10 +1081,25 @@ a:focus {
 }
 
 .team .team-img img {
-    width: 50%;
+    width: 70%;
     height: 80px;
     border-radius: 5%;
 }
+
+@media(max-width: 500.98px) {
+    .team {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .team .team-img img {
+        width: 60%;
+        height: 80px;
+        border-radius: 5%;
+    }
+}
+
 
 /*******************************/
 /******* Testimonial CSS *******/
