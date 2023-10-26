@@ -40,6 +40,7 @@ a:focus {
     max-width: 1366px;
     margin: 0 auto;
     background: #fff;
+    overflow-x: hidden;
 }
 
 .back-to-top {
