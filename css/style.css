@@ -1073,8 +1073,6 @@ a:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    border: 4px solid #041845;
-    border-radius: 25px;
 }
 
 .kompany {
