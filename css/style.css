@@ -628,6 +628,10 @@ a:focus {
     color: #dddddd;
 }
 
+.about .text-left p{
+    color: #fff;
+}
+
 .about .about-text a.btn {
     position: relative;
     margin-top: 15px;
@@ -635,15 +639,15 @@ a:focus {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #fff;
+    color: #2e5efc;
     border-radius: 0;
-    background: #2e5efc;
+    background: #fff;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: #2e5efc;
-    background: #fff;
+    color: #fff;
+    background: #2e5efc;
 }
 
 @media (max-width: 767.98px) {
