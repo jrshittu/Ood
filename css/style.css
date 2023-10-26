@@ -718,6 +718,15 @@ a:focus {
     color: #041845;
 }
 
+@media (max-width: 767.98px) {
+    .fact .fact-text p{
+        margin: 0;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
 /*******************************/
 /********* Courses CSS *********/
 /*******************************/
