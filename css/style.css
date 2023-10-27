@@ -396,7 +396,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #2e5efc;
+    background: #041845;
 }
 
 .page-header h2 {
@@ -437,7 +437,7 @@ a:focus {
     top: -2px;
     right: -7px;
     text-align: center;
-    color: #121518;
+    color: #fff;
 }
 
 .page-header a:last-child::after {
@@ -630,6 +630,10 @@ a:focus {
 
 .about .text-left p{
     color: #fff;
+}
+
+.about .page .text-left p{
+    color: #041845;
 }
 
 .about .about-text a.btn {
