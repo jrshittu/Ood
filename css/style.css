@@ -1917,11 +1917,11 @@ a:focus {
 }
 
 .contact .col-md-6:first-child {
-    background: #fff;
+    background: #041845;
 }
 
 .contact .col-md-6:last-child {
-    background: #041845;
+    background: #fff;
 }
 
 .contact .contact-info {
@@ -1937,12 +1937,12 @@ a:focus {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border: 1px solid #041845;
+    border: 1px solid #fff;
 }
 
 .contact .contact-item [class^="flaticon-"]::before {
     margin: 0;
-    color: #2e5efc;
+    color: #fff;
     font-size: 40px;
 }
 
@@ -1953,20 +1953,18 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: #2e5efc;
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
 }
 
 .contact .contact-text p {
     margin: 0;
-    color: #041845;
+    color: #fff;
     font-size: 16px;
 }
 
-.contact .contact-item:last-child {
-    margin-bottom: 0;
-}
+
 
 .contact .contact-form {
     position: relative;
@@ -1974,11 +1972,11 @@ a:focus {
 }
 
 .contact .contact-form input {
-    color: #fff;
+    color: #041845;
     height: 40px;
     border-radius: 0;
     border-width: 1px;
-    border-color: rgba(256, 256, 256, .4);
+    border-color: #041845;
     background: transparent;
 }
 
@@ -1987,7 +1985,7 @@ a:focus {
     height: 185px;
     border-radius: 0;
     border-width: 1px;
-    border-color: rgba(256, 256, 256, .4);
+    border-color: #041845;
     background: transparent;
 }
 
@@ -1997,12 +1995,12 @@ a:focus {
 }
 
 .contact .contact-form .form-control::placeholder {
-  color: #fff;
+  color: #041845;
   opacity: 1;
 }
 
 .contact .contact-form .form-control::-ms-input-placeholder {
-  color: #000;
+  color: #041845;
 }
 
 .contact .contact-form .form-control::-ms-input-placeholder {
@@ -2013,22 +2011,31 @@ a:focus {
     padding: 16px 30px;
     font-size: 16px;
     font-weight: 600;
-    color: #2e5efc;
-    background: #fff;
+    color: #fff;
+    background: #041845;
     border: none;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #fff;
-    background: #000;
+    color: #05299c;
+    background: #fff;
 }
 
 .contact .help-block ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.contact .contact-item:last-child {
+    margin-bottom: 0;
+    background: #041845;
+}
+
+.contact .contact-item:last-child a {
+    margin: 4px;
 }
 
 
