@@ -13,7 +13,7 @@ This repository contains the source code for the Odumare Tech website. Odumare T
 
 ## Project Description
 
-The Odumare Tech website is designed to showcase our mission and offerings in the field of technology education. Here's an overview of the key features and components of the website:
+The Odumare Tech website is designed to showcase our mission and offerings in the field of technology Research and Innovation. Here's an overview of the key features and components of the website:
 
 ### HTML Structure
 

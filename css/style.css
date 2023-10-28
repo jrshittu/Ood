@@ -1921,7 +1921,7 @@ a:focus {
 }
 
 .contact .col-md-6:last-child {
-    background: #2e5efc;
+    background: #041845;
 }
 
 .contact .contact-info {
@@ -1937,7 +1937,7 @@ a:focus {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border: 1px solid rgba(256, 256, 256, .2);
+    border: 1px solid #041845;
 }
 
 .contact .contact-item [class^="flaticon-"]::before {
@@ -1960,7 +1960,7 @@ a:focus {
 
 .contact .contact-text p {
     margin: 0;
-    color: #000;
+    color: #041845;
     font-size: 16px;
 }
 
@@ -1974,7 +1974,7 @@ a:focus {
 }
 
 .contact .contact-form input {
-    color: #000;
+    color: #fff;
     height: 40px;
     border-radius: 0;
     border-width: 1px;
@@ -1983,7 +1983,7 @@ a:focus {
 }
 
 .contact .contact-form textarea {
-    color: #000;
+    color: #041845;
     height: 185px;
     border-radius: 0;
     border-width: 1px;
@@ -1997,7 +1997,7 @@ a:focus {
 }
 
 .contact .contact-form .form-control::placeholder {
-  color: #000;
+  color: #fff;
   opacity: 1;
 }
 
