@@ -2038,11 +2038,25 @@ a:focus {
     margin: 4px;
 }
 
-.contact label{
+.contact select{
     font-weight: normal;
+    width: 510px;
+    color: #041845;
+    height: 40px;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #041845;
+    background: transparent;
 }
 
-.reme{
+@media (max-width: 768px) {
+    .contact select{
+        width: 332px;
+    }
+}
+
+
+.reme, .flex-control{
     display: flex;
     justify-content: space-between;
 }
