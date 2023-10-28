@@ -1908,7 +1908,7 @@ a:focus {
 .contact {
     position: relative;
     width: 100%;
-    padding: 45px 0;
+    padding: 5px 0;
 }
 
 .contact .col-md-6 {
@@ -1917,7 +1917,9 @@ a:focus {
 }
 
 .contact .col-md-6:first-child {
-    background: #041845;
+    background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../img/img/pexels-fauxels-3183190.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .contact .col-md-6:last-child {
@@ -1963,8 +1965,6 @@ a:focus {
     color: #fff;
     font-size: 16px;
 }
-
-
 
 .contact .contact-form {
     position: relative;
@@ -2037,6 +2037,37 @@ a:focus {
 .contact .contact-item:last-child a {
     margin: 4px;
 }
+
+.contact label{
+    font-weight: normal;
+}
+
+.reme{
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-group input[type="checkbox"],
+.control-group label {
+    display: inline;
+    vertical-align: middle;
+}
+
+.icons-detail {
+    display: flex;
+    align-items: center;
+}
+
+.icons-detail p{
+    font-weight: bold;
+    color: #000000;
+}
+
+.icons-detail img {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width: 50px;
+}
+
 
 
 /*******************************/

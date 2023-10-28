@@ -97,11 +97,11 @@
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto">
-                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <a href="index.html" class="nav-item nav-link">Home</a>
                                 <a href="our-courses.html" class="nav-item nav-link">Our Courses</a>
                                 <a href="about.html" class="nav-item nav-link">About</a>
-                                <a href="contact-us.html" class="nav-item nav-link">Contact Us</a>
-                                <a href="join-us.html" class="nav-item nav-link">Become an Instructor</a>
+                                <a href="contact-us.html" class="nav-item nav-link ">Contact Us</a>
+                                <a href="join-us.html" class="nav-item nav-link active">Become an Instructor</a>
                                 <a href="login.html" class="nav-item nav-link">Login</a>
                             </div>
                             <div class="ml-auto">
@@ -113,11 +113,89 @@
             </div>
             <!-- Nav Bar End -->
 
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Join Our Team</h2>
+                        </div>
+                        <div class="col-12">
+                            <a href="index.html">Home</a>
+                            <a href="#">Become an Instructor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Contact Start -->
+            <div class="contact wow fadeInUp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="firstname" placeholder="First Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Last Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
 
+                                    <div class="control-group">
+                                        <label for="gender">Gender</label> <br>
+                                        <select name="gender" id="gender">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                            <option value="prefered not to say">Prefered Not to Say</option>
+                                        </select>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
 
+                                    <div class="control-group">
+                                        <label for="courses">Choose from Available Courses</label> <br>
+                                        <select name="courses" id="courses">
+                                            <option value="Web Development">Web Development</option>
+                                            <option value="Data Science">Data Science</option>
+                                            <option value="Data Analytics">Data Analytics</option>
+                                            <option value="Business Analysis">Business Analysis</option>
+                                        </select>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
 
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    
+                                    <div class="control-group">
+                                        <label for="file">Upload Your CV</label>
+                                        <input type="file" name="CV" id="fileUpload">
+                                    </div>
 
+                                    <div class="control-group">
+                                        <input type="checkbox" name="checkbox" id="checkbox">
+                                        <label for="file">Subscribe to our mail list</label>
+                                    </div>
+
+                                    
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
 
             
             <!-- Footer Start -->
