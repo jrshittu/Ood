@@ -1359,7 +1359,7 @@ a:focus {
     color: #041845;
 }
 
-.card {
+.cards {
     width: 300px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -1370,17 +1370,17 @@ a:focus {
     text-align: center;
   }
 
-  .card label{
+  .cards label{
     color: #fff;
   }
 
-  .card-header {
+  .cards-header {
     font-size: 24px;
     margin-bottom: 20px;
     color: #fff;
   }
 
-  .flex-card{
+  .flex-cards{
     display: flex;
     justify-content: space-between;
   }
