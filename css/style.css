@@ -1447,6 +1447,19 @@ a:focus {
     justify-content: space-between;
   }
 
+
+  .feature-text a{
+    margin-top: 10px;
+    background-color: #2e5efc;
+    color: #fff;
+  }
+
+  .feature-text a:hover{
+    color: #041845;
+    background-color: #fff;
+    border: 1px solid #041845;
+  }
+
   .payment-details {
     font-size: 16px;
     color: #041845;
@@ -2037,6 +2050,71 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 5px 0;
+}
+
+.contact .blue{
+    background-color: #041845;
+}
+
+.sidebar {
+    background: #041845;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-item2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item2 i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.contact-item2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 1px solid #fff;
+}
+
+.contact .contact-item2 [class^="flaticon-"]::before {
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+}
+
+.contact-text h2 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact-text p {
+    margin: 0;
+    color: #fff;
+}
+
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+
+.socials a {
+    text-decoration: none;
+    display: inline-block;
+    background: #041845;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-right: 5px;
 }
 
 .contact .col-md-6 {
