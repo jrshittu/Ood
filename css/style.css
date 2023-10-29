@@ -1342,10 +1342,73 @@ a:focus {
     overflow: hidden;
 }
 
+.single .single-content h2 {
+    color: #041845;
+}
+
+.single .single-content h3 {
+    color: #041845;
+}
+
 .single .single-content img {
     margin-bottom: 20px;
     width: 100%;
 }
+
+.widget-title{
+    color: #041845;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(184, 176, 176, 0.884);
+    background-color: #041845;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .card label{
+    color: #fff;
+  }
+
+  .card-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .flex-card{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payment-details {
+    font-size: 16px;
+    color: #041845;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .cta-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #041845;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cta-btn:hover {
+    background-color: #041845;
+    color: #fff;
+    border: 1px solid #fff;
+  }
 
 .single .single-tags {
     margin: -5px -5px 41px -5px;
@@ -1390,6 +1453,7 @@ a:focus {
 .single .single-bio-text h3 {
     font-size: 20px;
     font-weight: 700;
+    color: #041845;
 }
 
 .single .single-bio-text p {
@@ -1404,6 +1468,7 @@ a:focus {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 25px;
+    color: #041845;
 }
 
 .single .related-slider {
