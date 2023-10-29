@@ -661,6 +661,68 @@ a:focus {
     }
 }
 
+.about2 {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+    background-color: #fff;
+    margin-top: 2px;
+}
+
+.about2 .section-header {
+    margin-bottom: 30px;
+}
+
+.about2 .about-img {
+    position: relative;
+    height: 100%;
+}
+
+.about2 .about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about2 .about-text p {
+    font-size: 16px;
+    color: #041845;
+}
+
+.about2 .text-left p{
+    color: #041845;
+}
+
+.about2 .page .text-left p{
+    color: #05299c;
+}
+
+.about2 .about-text a.btn {
+    position: relative;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 0;
+    background: #041845;
+    transition: .3s;
+}
+
+.about2 .about-text a.btn:hover {
+    color: #041845;
+    background: #fff;
+    border: 1px solid #041845;
+}
+
+@media (max-width: 767.98px) {
+    .about2 .about-img {
+        margin-bottom: 30px;
+        height: auto;
+    }
+}
+
 
 /*******************************/
 /********** Fact CSS ***********/
@@ -1396,6 +1458,7 @@ a:focus {
     display: block;
     width: 100%;
     padding: 10px;
+    margin-top: 10px;
     background-color: #fff;
     color: #041845;
     text-decoration: none;
@@ -1908,7 +1971,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(3, 15, 39, .7);
+    background: #2e5efc;
     transition: .5s;
     opacity: 0;
 }
@@ -1919,7 +1982,7 @@ a:focus {
 
 .portfolio .portfolio-overlay p {
     margin: 0;
-    color: #000;
+    color: #fff;
 }
 
 .portfolio .portfolio-text {
