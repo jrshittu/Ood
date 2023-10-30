@@ -1149,7 +1149,7 @@ a:focus {
 }
 
 .kompany img {
-    max-width: 60%;
+    max-width: 20%;
     height: auto;
     display: block; 
     margin: 0 auto; 
@@ -1164,6 +1164,12 @@ a:focus {
     margin: 0;
     text-align: center; 
     color: #041845;
+}
+
+@media(max-width: 767.98px) {
+    .kompany img {
+        max-width: 50%;
+    }
 }
 
 
