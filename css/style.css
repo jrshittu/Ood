@@ -1148,6 +1148,21 @@ a:focus {
     text-align: center;
 }
 
+.page2 {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 2px;
+    background: #fff;
+    text-decoration: none;
+    color: #2e5efc;
+    border-radius: 3px;
+}
+
+.page2:hover {
+    background: #2e5efc;
+    color: #fff;
+}
+
 .kompany img {
     max-width: 20%;
     height: auto;
@@ -1427,11 +1442,10 @@ a:focus {
 }
 
 .cards {
-    width: 300px;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(184, 176, 176, 0.884);
+    box-shadow: 0 4px 8px rgba(11, 2, 136, 0.884);
     background-color: #041845;
     font-family: Arial, sans-serif;
     text-align: center;
