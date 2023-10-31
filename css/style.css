@@ -1409,6 +1409,30 @@ a:focus {
     color: #999999;
 }
 
+.basic-info {
+    list-style: none;
+    padding: 0;
+    margin-bottom: .2em;
+}
+
+.basic-info li {
+    margin-bottom: 10px;
+}
+
+.basic-info li strong {
+    display: inline-block;
+    width: 140px; 
+}
+
+.basic-info li::before {
+    content: "";
+    color: #2e5efc; 
+    display: inline-block;
+    margin-left: -15px;
+    width: 10px;
+}
+
+
 
 /*******************************/
 /******* Single Post CSS *******/
