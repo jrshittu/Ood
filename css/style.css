@@ -1432,7 +1432,23 @@ a:focus {
     width: 10px;
 }
 
+.mission-text{
+    margin-top: 1em;
+    background-color: #041845;
+    border-radius: 20px;
+}
 
+.mission-text p{
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.mission-text h3{
+    color: #fff;
+    text-align: center;
+    padding-top: 1em;
+}
 
 /*******************************/
 /******* Single Post CSS *******/
